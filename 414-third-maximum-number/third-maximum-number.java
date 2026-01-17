@@ -5,6 +5,7 @@ class Solution {
         for (int n : nums) {
             set.add(n);
         }
+        
 
         List<Integer> list = new ArrayList<>(set);
         Collections.sort(list);  
